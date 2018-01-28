@@ -10,6 +10,10 @@ sup {
     color: #929292;
 }
 
+sub {
+    color: #929292;
+}
+
 nav > ul > li {
     display: inline-block;
     color: blue;
@@ -70,4 +74,8 @@ footer {
 #scala-consists-of > tbody > tr > td:hover {
     background-color: brown;
     color: white;
+}
+
+.td-back-green {
+    background-color: green;
 }

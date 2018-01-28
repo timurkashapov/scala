@@ -32,7 +32,7 @@
             </ul>
         </li>
         <li>
-            <a href="@intro-dsl">Introduction to DSL</a><sup>введение в язык доменного описания</sup>
+            <a href="#intro-dsl">Introduction to DSL</a><sup>введение в язык доменного описания</sup>
             <ul>
                 <li><a href="#internal-dsl">Internal DSL</a><sup>внетреннее доменное описание</sup></li>
                 <li><a href="#external-dsl">External DSL</a><sup>внешнее доменное описание</sup></li>
@@ -101,11 +101,12 @@
 </section>
 <hr>
 <section>
-    <h3 id="intro">Introduction to Scala</h3>
-    <b>Basic Syntax</b>
+    <h2 id="intro">Introduction to Scala</h2>
+    <h3>Basic Syntax<sup>базовый <синтаксис></синтаксис></sup></h3>
+    <br>
     <table>
         <thead>
-        <b><i>Reserved Keywords</i></b>
+        Reserved Keywords<sup>зарезервированные слова</sup>
         <tr>
             <th>group0</th>
             <th>group1</th>
@@ -132,21 +133,19 @@
             <td>9</td>
         </tr>
         <tr>
-            <td><b><a href="">val</a></ф></b></td>
+            <td><a href="">val</a></td>
         </tr>
         </tbody>
     </table>
-
-    <b>Variable<sup>переменная</sup></b>
-
+    <h3>Variables<sup>переменные</sup></h3>
     Переменные состоят из 2 видов:
     <ul>
         <li>mutable<sup>изменяемые</sup> - объявляются зарезервированным, ключевым словом <i>var</i></li>
         <li>immutable<sup>неизменяемые</sup> - объявляются зарезервированным, ключевым словом <i>val</i></li>
     </ul>
-    Синтаксис объявления переменной:
     <table>
         <thead>
+        Синтаксис объявления переменной:
         <tr>
             <th></th>
             <th>вид</th>
@@ -178,33 +177,75 @@
         </tr>
         </tbody>
     </table>
+    <p>
+        Temporary Variable<sup>временная переменная</sup> - создаются &#60;системой&#62; Scala, когда не задаются исходным переменным идентификаторы (имена).<br>
+        &#60;система&#62; Scala инспектирует и присваивает необходимые типы для переменных, которые объявлены как незменяемые.
+    </p>
 
-    <p>Временная переменная (temporary variable) - создаются by Scala, когда не задаются исходным переменным идентификаторы (имена)</p>
+    <h3>Types<sup>система типов</sup></h3>
+    <table>
+        <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
 
     <hr style="width: 1500px">
     <table>
         <thead>
-        <b><i>Arithmetic operations</i></b>
+        <h3>Arithmetic operations<sup>арифметические операции</sup></h3>
         <tr>
+            <th></th>
+            <th><sub>оператор</sub></th>
+            <th><sub>символ</sub></th>
+            <th><sub>целочисленное<br>число</sub></th>
+            <th><sub>вещественное<br>число</sub></th>
+            <th><sub>строка</sub></th>
+        </tr>
+        <tr>
+            <th></th>
             <th>Operator</th>
-            <th>Description</th>
-            <th>Characters</th>
-            <th>Integers</th>
+            <th>Character</th>
+            <th>Integer</th>
             <th>Double</th>
             <th>String</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td> + </td>
+            <td><b>Character</b></td>
+            <td>+</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="td-back-green"></td>
         </tr>
         <tr>
+            <td><b>Integer</b></td>
             <td> - </td>
         </tr>
         <tr>
+            <td><b>Double</b></td>
             <td> / </td>
         </tr>
         <tr>
+            <td><b>String</b></td>
             <td> // </td>
         </tr>
         <tr>
@@ -216,16 +257,16 @@
 </section>
 <hr>
 <section>
-    <h3 id="intro-dsl">Introduction to DSL</h3>
+    <h2 id="intro-dsl">Introduction to DSL</h2>
 
     <hr style="width: 1500px">
     <div>
         <div>
-            <h3 id="internal-dsl">Internal DSL</h3>
+            <h2 id="internal-dsl">Internal DSL</h2>
         </div>
         <hr style="width: 1500px">
         <div>
-            <h3 id="external-dsl">External DSL</h3>
+            <h2 id="external-dsl">External DSL</h2>
         </div>
     </div>
 </section>

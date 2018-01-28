@@ -37,3 +37,21 @@ td {
 footer {
     text-align: center;
 }
+
+#scala-consists-of-link {
+    color: black;
+}
+
+#scala-consists-of {
+    font-weight: bold;
+}
+
+#scala-consists-of > tbody > tr > td {
+    padding: 8px;
+    background-color: tomato;
+}
+
+#scala-consists-of > tbody > tr > td:hover {
+    background-color: brown;
+    color: white;
+}

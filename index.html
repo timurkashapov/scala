@@ -107,29 +107,29 @@
         <thead>
         <b><i>Reserved Keywords</i></b>
         <tr>
-            <td>group0</td>
-            <td>group1</td>
-            <td>group2</td>
-            <td>group3</td>
-            <td>group4</td>
-            <td>group5</td>
-            <td>group6</td>
-            <td>group7</td>
-            <td>group8</td>
-            <td>group9</td>
+            <th>group0</th>
+            <th>group1</th>
+            <th>group2</th>
+            <th>group3</th>
+            <th>group4</th>
+            <th>group5</th>
+            <th>group6</th>
+            <th>group7</th>
+            <th>group8</th>
+            <th>group9</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td><b><a href="">var</a></b></td>
-            <td><b>2</b></td>
-            <td><b>3</b></td>
-            <td><b>4</b></td>
-            <td><b>5</b></td>
-            <td><b>6</b></td>
-            <td><b>7</b></td>
-            <td><b>8</b></td>
-            <td><b>9</b></td>
+            <td><a href="">var</a></td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
         </tr>
         <tr>
             <td><b><a href="">val</a></ф></b></td>
@@ -139,17 +139,17 @@
 
     <b>Variable<sup>переменная</sup></b>
 
-    Переменные состоят из 2 типов:
+    Переменные состоят из 2 видов:
     <ul>
         <li>mutable<sup>изменяемые</sup> - объявляются зарезервированным, ключевым словом <i>var</i></li>
         <li>immutable<sup>неизменяемые</sup> - объявляются зарезервированным, ключевым словом <i>val</i></li>
     </ul>
     Синтаксис объявления переменной:
-    <b><i>var num:Int = 4 </i></b>
     <table>
         <thead>
         <tr>
-            <th>ключевое слово</th>
+            <th></th>
+            <th>вид</th>
             <th>идентификатор</th>
             <th>знак принадлежности</th>
             <th>тип переменной</th>
@@ -159,6 +159,16 @@
         </thead>
         <tbody>
         <tr>
+            <td>шаблон</td>
+            <td>&#60;kind&#62;</td>
+            <td>&#60;name&#62;</td>
+            <td>:</td>
+            <td>&#60;type&#62;</td>
+            <td>=</td>
+            <td>&#60;value&#62;</td>
+        </tr>
+        <tr>
+            <td>реализация</td>
             <td>var</td>
             <td>num</td>
             <td>:</td>
@@ -169,7 +179,7 @@
         </tbody>
     </table>
 
-    <b>Временная переменная (temporary variable) - создаются by Scala, когда не задаются исходным переменным идентификаторы (имена)</b>
+    <p>Временная переменная (temporary variable) - создаются by Scala, когда не задаются исходным переменным идентификаторы (имена)</p>
 
     <hr style="width: 1500px">
     <table>

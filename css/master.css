@@ -1,7 +1,13 @@
+/*COMMON*/
+/*----------------------------------------------------------------------------------*/
 body {
     margin-left: 16px;
     margin-right: 16px;
     background-color: #e2e2e2e2;
+}
+
+sup {
+    color: #a2a2a2;
 }
 
 nav > ul > li {
@@ -10,7 +16,7 @@ nav > ul > li {
 }
 
 li {
-    margin: 4px;
+    margin: 8px;
 }
 
 b {
@@ -38,6 +44,8 @@ footer {
     text-align: center;
 }
 
+/*SPECS*/
+/*----------------------------------------------------------------------------------*/
 #scala-consists-of-link {
     color: black;
 }

@@ -27,6 +27,14 @@ a {
     color : blue;
 }
 
+.table-link {
+    color: #000000;
+}
+
+.table-link:hover {
+    color: #ffffff;
+}
+
 a:hover {
     color : darkblue;
 }

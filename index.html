@@ -22,6 +22,7 @@
     </nav>
 </header>
 <hr>
+<!--Content-->
 <section>
     <h2>Content<sup> содержание</sup></h2>
     <ul>
@@ -41,6 +42,7 @@
     </ul>
 </section>
 <hr>
+<!--Consists-->
 <section>
     <table id="scala-consists-of">
         <thead>
@@ -100,6 +102,7 @@
     </table>
 </section>
 <hr>
+<!--Intro-->
 <section>
     <h2 id="intro">Introduction to Scala</h2>
     <h3>Basic Syntax<sup>базовый <синтаксис></синтаксис></sup></h3>
@@ -193,34 +196,64 @@
     <h3>Define Methods and Functions<sup>определение методов и функций</sup></h3>
     <table>
         <thead>
-        Синтаксис объявления переменной:
         <tr>
             <th></th>
             <th><sub>ключевое слово</sub></th>
             <th><sub>идентификатор</sub></th>
-            <th><sub>аргументы</sub></th>
+            <th><sub>аргументы или <br> функции</sub></th>
             <th><sub>тип возвращаемого <br> значения </sub></th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td><sub><b>шаблон</b></sub></td>
+            <td><sub><b>прототип</b></sub></td>
             <td>&#60;keyword&#62;</td>
             <td>&#60;name&#62;</td>
             <td>&#60;args&#62;</td>
             <td>&#60;return value&#62;</td>
         </tr>
         <tr>
-            <td><sub><b>реализация</b>  </sub></td>
+            <td><sub><b>сигнатура</b>  </sub></td>
             <td>def</td>
-            <td>something</td>
+            <td>function</td>
             <td>( arr:Array[Int], arr2:Array[Int] )</td>
             <td>Array[Int]</td>
         </tr>
         </tbody>
     </table>
+    <table>
+        <thead>
+        <tr>
+            <th></th>
+            <th><sub>ключевое слово</sub></th>
+            <th><sub>идентификатор</sub></th>
+            <th><sub>функция как <br> аргумент</sub></th>
+            <th><sub>оператор <br> присваивания</sub></th>
+            <th><sub>тип возвращаемого <br> значения </sub></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><sub><b>прототип</b></sub></td>
+            <td>&#60;keyword&#62;</td>
+            <td>&#60;name&#62;</td>
+            <td>&#60;function&#62;</td>
+            <td> = </td>
+            <td>&#60;return value&#62;</td>
+        </tr>
+        <tr>
+            <td><sub><b>сигнатура</b>  </sub></td>
+            <td>def</td>
+            <td>function</td>
+            <td>( internal: Int => String, value:Int )</td>
+            <td> = </td>
+            <td>internal(value)</td>
+        </tr>
+        </tbody>
+    </table>
     <ul>
         <li>Функции объявляются ключевым словом <i>def</i></li>
+        <li>В качестве аргументов могут выступать другие функции, называемые функциями высшего порядка</li>
     </ul>
     <h3>Types<sup>система типов</sup></h3>
     <table>
@@ -295,6 +328,7 @@
     <ul></ul>
 </section>
 <hr>
+<!--DSL-->
 <section>
     <h2 id="intro-dsl">Introduction to DSL</h2>
 
@@ -313,6 +347,7 @@
 <section>section</section>
 <hr>
 <section>section</section>
+<!--Projects-->
 <section>
     <h2 id="projects">Projects</h2>
     <ul>

@@ -57,10 +57,10 @@
         </thead>
         <tbody>
         <tr>
-            <td><a class="table-link" href="">scala</a></td>
-            <td><a class="table-link" href="">scalac</a></td>
-            <td><a class="table-link" href="">scaladoc</a></td>
-            <td><a class="table-link" href="">scalap</a></td>
+            <td><a class="table-link" href="#scala-interpreter">scala</a></td>
+            <td><a class="table-link" href="#scala-compiler">scalac</a></td>
+            <td><a class="table-link" href="#scala-docs">scaladoc</a></td>
+            <td><a class="table-link" href="#scala-decompiler">scalap</a></td>
             <td><a class="table-link" href="">0</a></td>
         </tr>
         <tr>
@@ -100,6 +100,15 @@
         </tr>
         </tbody>
     </table>
+    <ul>
+        <h3>Описание компонентов системы Scala</h3>
+        <li id="scala-interpreter"><i>scala</i> - <u>интерпретатор</u></li>
+        <li id="scala-compiler"><i>scalac</i> - <u>компилятор</u></li>
+        <li id="scala-decompiler"><i>scalap</i> - <u>декомпилятор</u> байт-кода</li>
+        <li id="scala-docs"><i>scaladoc</i> - <u>инструмент создания документации</u></li>
+        <li></li>
+        <li></li>
+    </ul>
 </section>
 <hr>
 <!--Intro-->
@@ -184,7 +193,9 @@
         </tbody>
     </table>
     <ul>
-        <li>Temporary Variable<sup>временная переменная</sup> - создаются &#60;системой&#62; Scala, когда не задаются исходным переменным идентификаторы (имена).</li>
+        <li>
+            Temporary Variable<sup>временная переменная</sup> - ( res0: , res1: , ..., resN: ) создаются &#60;системой&#62; Scala, когда не задаются исходным переменным идентификаторы (имена).
+        </li>
         <li>&#60;система&#62; Scala инспектирует и присваивает необходимые типы для переменных, которые объявлены как незменяемые.</li>
     </ul>
 
@@ -252,9 +263,21 @@
         </tbody>
     </table>
     <ul>
-        <li>Функции объявляются ключевым словом <i>def</i></li>
+        <li>Различие между методами и функциями заключается в том, что методы обязательно именуются, <br>
+            функции же, в свою очередь, являются анонимными, т.е. не имеют наименования.
+        </li>
+        <li>Функции и методы объявляются ключевым словом <i>def</i></li>
         <li>В качестве аргументов могут выступать другие функции, называемые функциями высшего порядка</li>
     </ul>
+    <ul>
+        <li><i>def</i> function_name ([list of parameters]) : [return type]</li>
+        <li><i>def</i> _BubbleSort(arr: Array[Int]) : Array[Int] {...}</li>
+        <li><i>def</i> _Apply(_Internal: Int => String, value: Int) _Internal(value) {...}</li>
+        <li><i>val</i> addOne = (num:int) => num + 1</li>
+        <li><i>val</i> fixValue = () => 9</li>
+        <li><i>val</i> theAnswer = () => 42</li>
+    </ul>
+    
     <h3>Types<sup>система типов</sup></h3>
     <table>
         <thead>
